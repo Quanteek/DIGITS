@@ -25,7 +25,6 @@ matrix:
           addons:
               apt:
                   packages:
-                      - closure-linter
                       - python-flake8
           install: true
           script:
